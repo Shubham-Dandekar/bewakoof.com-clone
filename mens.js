@@ -128,3 +128,67 @@ bestSellerForMenData.forEach(function (elem) {
   div1.append(image, div2);
   bestSellerForMen.append(div1);
 });
+
+let banner2Data = [
+  "https://images.bewakoof.com/uploads/grid/app/clearance-zone-tshirt-1657884720.jpg",
+  "https://images.bewakoof.com/uploads/grid/app/Buy2get1-1x1-common-1658240220.jpg",
+  "https://images.bewakoof.com/uploads/grid/app/Static-JustArrived-Cargo-men-1658250092.gif",
+];
+
+let banner2 = document.querySelector("#banner-2");
+
+banner2Data.forEach(function (elem) {
+  let div = document.createElement("div");
+  let image = document.createElement("img");
+  image.src = elem;
+  div.append(image);
+  banner2.append(div);
+});
+
+let bargainData = [
+  "https://images.bewakoof.com/uploads/grid/app/budget-buys-2-x-2-new-tees---Copy-1658123486.jpg",
+  "https://images.bewakoof.com/uploads/grid/app/budget-buys-2-x-2-new-bboxers2-1658294222.jpg",
+  "https://images.bewakoof.com/uploads/grid/app/budget-buys-2-x-2-new-shirts-1658123485.jpg",
+  "https://images.bewakoof.com/uploads/grid/app/budget-buys-2-x-2-new-sliders-1658123485.jpg",
+];
+
+let bargain = document.querySelector("#bargain");
+
+bargainData.forEach(function (elem) {
+  // let div = document.createElement("div");
+  let image = document.createElement("img");
+  image.src = elem;
+  // div.append(image);
+  bargain.append(image);
+});
+
+let clearanceData = [
+  "https://images.bewakoof.com/t320/men-s-blue-t-shirt-271438-1655748128-1.jpg",
+  "https://images.bewakoof.com/t320/load-game-adjustable-strap-men-slider-373620-1656138694-1.jpg",
+  "https://images.bewakoof.com/t320/meteor-grey-full-sleeve-t-shirt-211959-1655747957-1.jpg",
+  "https://images.bewakoof.com/t320/men-s-black-iron-man-arc-t-shirt-472728-1656150990-1.jpg",
+  "https://images.bewakoof.com/t320/men-s-blue-t-shirt-115-1655747790-1.jpg",
+];
+
+let clearance = document.querySelector("#clearance");
+
+clearanceData.forEach(function (elem) {
+  let image = document.createElement("img");
+  image.src = elem;
+  clearance.append(image);
+});
+
+let stupidData = [
+  "https://images.bewakoof.com/uploads/grid/app/PlusSize-mid-size-banner-men-1657003958.jpg",
+  "https://images.bewakoof.com/uploads/grid/app/Mid-Size-Banner-jackets-men-1657872392.jpg",
+  "https://images.bewakoof.com/uploads/grid/app/unnamed-1657696177.jpg",
+  "https://images.bewakoof.com/uploads/grid/app/Mid-Size-Banner-Full-Sleeves-Men-1658308584.jpg",
+];
+
+let stupid = document.querySelector("#stupid");
+
+stupidData.forEach(function (elem) {
+  let image = document.createElement("img");
+  image.src = elem;
+  stupid.append(image);
+});
