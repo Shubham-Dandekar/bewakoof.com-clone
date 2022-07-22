@@ -157,7 +157,7 @@ body > p {
 
 #footer {
   background-color: #181818;
-  height: 3059px;
+  height: 1100px;
   margin-top: -23px;
 }
 
@@ -195,7 +195,6 @@ body > p {
   line-height: 18px;
 }
 
-#container1 p,
 #container p {
   color: #fdd835;
   font-size: 12px;
