@@ -1,0 +1,235 @@
+* {
+  font-family: sans-serif;
+}
+
+#bewakoof-offers {
+  margin-top: 100px;
+  text-align: center;
+}
+#bewakoof-offers > h1 {
+  font-size: 48px;
+}
+#bewakoof-offers > p {
+  margin-top: -25px;
+  font-size: 18px;
+}
+
+#offers {
+  text-align: center;
+}
+#offers img {
+  width: 1170px;
+  margin-bottom: 10px;
+}
+
+#track-orders {
+  margin-top: 130px;
+  text-align: center;
+}
+
+#track-orders > :nth-child(1) {
+  color: #51cccc;
+}
+
+#track-orders > :nth-child(1),
+#track-orders > h1 {
+  text-align: left;
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+
+#track-orders > :nth-child(3) {
+  color: #18181899;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+#track-orders img {
+  width: 138px;
+  height: 203px;
+  display: block;
+  margin: auto;
+}
+
+#track-orders button {
+  width: fit-content;
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #51cccc;
+  border: 1px solid #51cccc;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+#app1 {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  margin-top: 150px;
+}
+
+#app1 > :nth-child(2) > :nth-child(1) {
+  font-size: 90px;
+  width: 100px;
+  margin-top: 0px;
+  margin-bottom: 110px;
+}
+
+#app1 > :nth-child(2) > :nth-child(2),
+#app1 > :nth-child(2) > :nth-child(3),
+#app1 > :nth-child(2) > :nth-child(4) {
+  font-size: 100px;
+  width: 90px;
+  margin-top: -120px;
+}
+
+#app1 h3 {
+  margin-left: 10px;
+  margin-top: -90px;
+}
+
+#app1 > :nth-child(2) > :nth-child(6) {
+  font-size: 11px;
+  color: #333333;
+  margin-top: -10px;
+}
+
+#app1 > img,
+#app2 > img:nth-child(1) {
+  width: 230px;
+}
+
+#app2 > img:nth-child(1) {
+  margin-right: 160px;
+}
+
+#app2 > img:nth-child(2),
+#app2 > img:nth-child(3) {
+  width: 140px;
+  margin-right: 20px;
+}
+#app2 {
+  width: 50%;
+  margin: auto;
+  margin-top: -390px;
+  margin-bottom: 123px;
+}
+
+#footer {
+  background-color: #181818;
+  height: 1100px;
+  margin-top: -14px;
+}
+
+#footer > :nth-child(1) {
+  height: 90px;
+}
+
+#footer > :nth-child(2) {
+  width: 73%;
+  margin: auto;
+}
+
+#footer > :nth-child(2) > a {
+  color: #fdd835;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+#container1,
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#container {
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.service {
+  display: block;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 18px;
+}
+
+#container p {
+  color: #fdd835;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.fa-twitter,
+.fa-pinterest,
+.fa-snapchat,
+.fa-apple {
+  color: white;
+  margin: 10px;
+}
+
+input {
+  background-color: #181818;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: #fdd835;
+  padding: 10px;
+  width: 110px;
+}
+
+button {
+  padding: 9px;
+  width: 120px;
+  background-color: #fdd835;
+  color: #181818;
+  margin-left: -5px;
+}
+
+#container img {
+  margin-left: 10px;
+}
+
+#app img {
+  width: 100px;
+}
+
+.social {
+  display: block;
+  color: #51cccc;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 18px;
+}
+
+#container2 {
+  width: 73%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading {
+  color: white;
+  font-size: 18px;
+}
+
+.variety {
+  color: white;
+  font-size: 13px;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+
+#bottom {
+  width: 73%;
+  margin: auto;
+  color: #ffffffe6;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 10px;
+}
