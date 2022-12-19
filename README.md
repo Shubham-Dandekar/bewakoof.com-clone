@@ -9,3 +9,8 @@ School during the unit-2 curriculum. It was an individual project completed in 4
 # Deployed Link:
 
 https://clone-bewakoof.netlify.app/
+
+
+# Screenshots:
+
+![bewakoof com](https://user-images.githubusercontent.com/107460330/208365607-fcbf3f8c-5c8f-4d6d-843b-790c2d380a55.png)
